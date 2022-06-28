@@ -69,7 +69,7 @@ def pregunta_03():
     # Importe MinMaxScaler
     # Importe Pipeline
     from sklearn.neural_network import MLPRegressor
-    from sklearn.preprocesiing import MinMaxScaler
+    from sklearn.preprocessing import MinMaxScaler
     from sklearn.pipeline import Pipeline
     
     # Cree un pipeline que contenga un estimador MinMaxScaler y un estimador
@@ -142,7 +142,7 @@ def pregunta_05():
     """
 
     # Importe mean_squared_error
-    from sklear.metrics import mean_squared_error
+    from sklearn.metrics import mean_squared_error
 
     # Cargue las variables.
     x_train, x_test, y_train, y_test = pregunta_02()
